@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Text&family=Special+Elite&display=swap');
+
+body {
+    background-color: rgb(252, 251, 246);
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Special Elite', cursive;
+}
+
+#feed {
+    background-image: url("../img/news.png");
+    background-attachment: fixed;
+}
+
+header {
+    width: 400px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    font-family: 'Special Elite', cursive;
+    
+}
+
+nav {
+    width: 215px;
+    height: 260px;
+    position: fixed;
+    top: 465px;
+    left: 25px;
+    font-family: 'Special Elite', cursive;
+    background-color: rgb(252, 251, 246);
+    text-align: left;
+    overflow: scroll;
+}
+
+main {
+    width: 650px;
+    margin-left: 500px;
+}
+
+section {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: rgb(252, 251, 246);
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+section img {
+    display: flex-start;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+section p {
+    padding: 5px;
+    text-align: left;
+    position: relative;
+    bottom: 550px;
+    margin-left: 400px;
+}
+
+footer {
+    width: 139px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 40px;
+    font-family: 'Libre Barcode 128', cursive;
+    font-size: 30px;
+    text-align:center
+}
+
+#splashgif {
+    text-align: center;
+    left: 450px;
+    position: fixed;
+}
+
+#splashgif:hover {
+    opacity: 0.5;
+}
+
+#splashgif2 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#splashgif2:hover {
+    opacity: 0.5;
+}
